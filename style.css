@@ -1,0 +1,133 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    /* border: 1px solid red; */
+    color: rgba(0, 0, 0, 0.5) ;
+}
+span{
+    color: orange;
+}
+h1{
+    font-weight: bolder;
+    font-size: 40px;
+    margin: 0%;
+}
+p{
+    font-size: 12px;
+    margin: 0%;
+    font-weight: lighter;
+}
+button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    font-size: 15px;
+    color: white;
+    border: 0;
+    padding:15px 30px;
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px 0.5px rgba(255, 166, 0, 0.377);
+}
+.top{
+    /* border: 1px solid red; */
+    display: flex;
+    height: 40vh;
+    padding: 4%;
+    margin-top: 5%;
+    background-image: url(images/male/my-BG.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 95vw;
+}
+.top-right{
+    /* border: 1px solid red; */
+    width: 70%;
+}
+.top-right img{
+    /* border: 1px solid red; */
+    width: 120%;
+}
+.top-left{
+    /* border: 1px solid red; */
+    width: 60%;
+    padding-top: 8%;
+    padding-left: 3%;
+}
+.mid{
+    background-image: url(images/shapes/7.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    display: flex;
+}
+.mid-left{
+    /* border: 1px solid red; */
+    padding: 0%;
+}
+.mid-right{
+    /* border: 1px solid red; */
+    width: 100%;
+    padding-top: 5%;
+    padding-right: 10%;
+    padding-left: 15%;
+    font-size: larger;
+}
+.mid-left img{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin-top: 20px;
+    margin-left: 130px;
+}
+.recipie{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
+.bottom{
+    color: rgba(0, 0, 0, 0.822);
+    display: flex;
+    padding: 0 5%;
+    margin-left: 3%;
+}
+.bottom-half{
+    width: 40%;
+    padding: 3%;
+    margin-left: 2%;
+    border-radius: 5%;
+    box-shadow:2px 2px 20px 5px rgba(0, 0, 0, 0.123);
+}
+.bottom-half img{
+    width: 100%;
+}
+.bottom-half h4{
+    margin: 4% 0;
+}
+footer{
+    font-size: 90%;
+    padding: 1% 0 6% 0;
+    background-color: rgb(0, 0, 17);
+    text-align: center;
+    color: rgba(128, 128, 128, 0.562);
+}
+footer h4{
+    margin: 2%;
+}
+.final{
+    color: black;
+    display: flex;
+    width: 70%;
+    padding: 5%;
+    /* border: 1px solid red; */
+    border-radius: 10%;
+    margin-left: 10%;
+    margin-top: 7%;
+    box-shadow: 2px 2px 30px 5px rgba(128, 128, 128, 0.205);
+    margin-bottom: 7%;
+}
+.final h2{
+    margin: 0;
+}
+.thrice{
+    /* border: 1px solid red; */
+    width: 40%;
+    margin-left: 8%;
+}
